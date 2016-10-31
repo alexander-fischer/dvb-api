@@ -1,0 +1,22 @@
+{
+  "name": "dvb-api",
+  "version": "0.0.1",
+  "description": "Wrapper for official DVB/VVO API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dvb",
+    "vvo",
+    "dresden"
+  ],
+  "author": "Alexander Fischer",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.16.5",
+    "moment-timezone": "^0.5.7",
+    "request": "^2.76.0",
+    "xml2json": "^0.10.0"
+  }
+}

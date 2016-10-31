@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trias version="1.0" xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="trias file:///C:/mentzdv/Trias/TRIASSchemas/Trias.xsd">
+    <ServiceRequest>
+        <siri:RequestTimestamp>2016-03-30T13:36:00</siri:RequestTimestamp>
+        <siri:RequestorRef>VVopen</siri:RequestorRef>
+        <RequestPayload>
+            <TripRequest>
+                <Origin>
+                    <LocationRef>
+                        <StopPointRef>[[origin]]</StopPointRef>
+                        <LocationName>
+                            <Text></Text>
+                        </LocationName>
+                    </LocationRef>
+                    [[origin_time]]
+                </Origin>
+                <Destination>
+                    <LocationRef>
+                        <StopPointRef>[[destination]]</StopPointRef>
+                        <LocationName>
+                            <Text></Text>
+                        </LocationName>
+                    </LocationRef>
+                    [[destination_time]]
+                </Destination>
+                <Params>
+                    <PtModeFilter></PtModeFilter>
+                    <TripPolicyGroup>
+                        <BaseTripPolicyGroup>
+                            <NumberOfResults>1</NumberOfResults>
+                        </BaseTripPolicyGroup>
+                    </TripPolicyGroup>
+                </Params>
+            </TripRequest>
+        </RequestPayload>
+    </ServiceRequest>
+</Trias>
