@@ -1,6 +1,6 @@
 {
   "name": "dvb-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wrapper for official DVB/VVO API.",
   "main": "index.js",
   "scripts": {
